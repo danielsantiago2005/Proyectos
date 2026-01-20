@@ -56,7 +56,10 @@ while true; do
          password+="${caracteres:$rand:1}"
          done
     
-        echo "🔐Tu contraseña generada es: $password"
+        echo "🔐 Tu contraseña generada es: $password"
+
+        echo "$password >> $archivo"
+        sleep 3
         ;;
 
         2)

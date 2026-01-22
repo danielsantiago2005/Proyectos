@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#vamos a generar un número aleatorio, pero vamos a trucar las posibilidades
+
+probabilidad_cara=70
+probabilidad_cruz=30
+numero=$((RANDOM % 100 +1))
+
+if [ "$numero" -le $probabilidad_cara ]; then
+
+echo "Cara"
+
+else
+
+echo "cruz"
+fi

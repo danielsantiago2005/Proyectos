@@ -1,4 +1,4 @@
-Generador de Contraseñas en Bash
+🔐Generador de Contraseñas en Bash
 Este proyecto es un generador de contraseñas interactivo en Bash, diseñado para crear contraseñas seguras según las preferencias del usuario. Permite elegir la longitud, incluir mayúsculas, números y caracteres especiales, y genera una contraseña aleatoria basada en esos criterios.
 
 🚀 Características

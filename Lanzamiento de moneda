@@ -1,0 +1,12 @@
+#!/bin/bash
+
+tirada=$((RANDOM % 2))
+
+if [ "$tirada" -eq  0 ]; then
+
+echo "Cara"
+
+else
+
+echo "Cruz"
+fi
